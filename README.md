@@ -1,4 +1,5 @@
 # Lost and Found - FAST NUCES
+# Note: This is a mirror repository and will likely not be maintained or updated in the future.
 
 ## Project Overview
 Lost and Found is a centralized digital platform designed specifically for the FAST NUCES campus community. This platform helps students report lost items and post found items, making it easier to reconnect lost belongings with their rightful owners through a secure and efficient system.
@@ -13,7 +14,6 @@ Lost and Found is a centralized digital platform designed specifically for the F
 - **Frontend:** React + Vite
 - **Backend:** Node.js + Express
 - **Database:** PostgreSQL
-- **Image Storage:** Cloudinary
 - **Authentication:** JWT
 - **Styling:** Tailwind CSS
 
@@ -60,7 +60,7 @@ Lost and Found is a centralized digital platform designed specifically for the F
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/A-noob-in-Coding/lost-and-found.git
+   git clone https://github.com/A-noob-in-Coding/lost-and-found-mirror.git
    ```
 
 2. Install dependencies:
@@ -75,14 +75,7 @@ Lost and Found is a centralized digital platform designed specifically for the F
    ```
 
 3. Configure environment variables:
-   - Create a `.env` file in the backend directory
-   - Add the following variables:
-     ```
-     DATABASE_URL=your_postgres_connection_string
-     CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-     CLOUDINARY_API_KEY=your_cloudinary_api_key
-     CLOUDINARY_API_SECRET=your_cloudinary_secret
-     ```
+   
 
 4. Start the development servers:
    ```bash
@@ -92,5 +85,3 @@ Lost and Found is a centralized digital platform designed specifically for the F
    # Start frontend development server (from frontend directory)
    npm run dev
    ```
-
-© 2025 Lost & Found - FAST NUCES. All rights reserved.
